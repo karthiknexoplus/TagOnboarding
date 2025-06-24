@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_lane_info.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_lane_info.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_users.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_users.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_item_anpr_user.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_anpr_user.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_anpr_users.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_anpr_users.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_logo_nexoplus.png.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_logo_nexoplus.png"
+    },
+    {
+        "merged": "com.example.loginapp-merged_res-33:/layout_activity_reader_settings.xml.flat",
+        "source": "com.example.loginapp-main-35:/layout/activity_reader_settings.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_lane.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_lane.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_anpr_data.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_anpr_data.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_anpr_data.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_anpr_data.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_users.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_users.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/xml_network_security_config.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_item_menu.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_menu.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/mipmap-anydpi-v26_ic_launcher_foreground.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/mipmap-anydpi-v26/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/xml_file_paths.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_tag.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_tag.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_reader.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_reader.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_menu.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_item_access_log.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_access_log.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_item_anpr_result.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_anpr_result.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_item_lane.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_lane.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_item_user.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_user.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_anpr_users.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_anpr_users.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_image_preview.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_image_preview.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_item_device.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_device.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_logs.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_logs.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_home.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_access_logs.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_access_logs.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_bg_menu_icon_circle.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/bg_menu_icon_circle.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_barrier.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_barrier.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_reader_settings.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_reader_settings.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_barrier_control.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_barrier_control.xml"
+    }
+]

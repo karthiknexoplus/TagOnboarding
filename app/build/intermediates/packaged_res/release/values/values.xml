@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="access_log_status">
+        <item>Granted</item>
+        <item>Denied</item>
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="teal_700">#018786</color>
+    <color name="white">#FFFFFF</color>
+    <string name="anpr_data">ANPR Data</string>
+    <string name="app_name">Nexoplus</string>
+    <string name="from_date">From Date</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="lane_information">Lane Information</string>
+    <string name="login">Login</string>
+    <string name="menu_access_logs">Access Logs</string>
+    <string name="menu_anpr_data">ANPR Data</string>
+    <string name="menu_anpr_users">ANPR Users</string>
+    <string name="menu_barrier_control">Open Barrier</string>
+    <string name="menu_lane_info">Lane Info</string>
+    <string name="menu_reader_settings">Reader Settings</string>
+    <string name="menu_show_users">Show Users</string>
+    <string name="menu_tag_onboarding">Tag Onboarding</string>
+    <string name="password">Password</string>
+    <string name="search">Search</string>
+    <string name="select_camera">Select Camera</string>
+    <string name="to_date">To Date</string>
+    <string name="username">Username</string>
+    <string name="welcome">Welcome!</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+    <style name="Theme.LoginApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/purple_500</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/purple_500</item>
+    </style>
+    <style name="Widget.CurvedInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">32dp</item>
+        <item name="boxCornerRadiusTopEnd">32dp</item>
+        <item name="boxCornerRadiusBottomStart">32dp</item>
+        <item name="boxCornerRadiusBottomEnd">32dp</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nexoplus</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome!</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="lane_information">Lane Information</string>
+    <string name="anpr_data">ANPR Data</string>
+    <string name="select_camera">Select Camera</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="search">Search</string>
+    <string-array name="access_log_status">
+        <item>Granted</item>
+        <item>Denied</item>
+    </string-array>
+    <string name="menu_tag_onboarding">Tag Onboarding</string>
+    <string name="menu_show_users">Show Users</string>
+    <string name="menu_barrier_control">Open Barrier</string>
+    <string name="menu_lane_info">Lane Info</string>
+    <string name="menu_anpr_data">ANPR Data</string>
+    <string name="menu_anpr_users">ANPR Users</string>
+    <string name="menu_access_logs">Access Logs</string>
+    <string name="menu_reader_settings">Reader Settings</string>
+</resources> 

@@ -1,0 +1,23 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:padding="12dp">
+
+    <TableRow>
+        <TextView android:text="Name:" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/nameText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Vehicle No.:" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/vehicleNumberText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Created At:" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/createdAtText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Active Status:" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/activeStatusText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp" />
+    </TableRow>
+</TableLayout> 

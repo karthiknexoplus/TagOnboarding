@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.loginapp-mergeReleaseResources-31:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/8.9/transforms/45e39dd23ee70a7123c8f00a33fb721a/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

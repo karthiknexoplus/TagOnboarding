@@ -1,0 +1,36 @@
+com.example.loginapp-jetified-emoji2-views-helper-1.2.0-0 /Users/apple/.gradle/caches/8.9/transforms/021bbc9ca361176773d73fa8e3ba2248/transformed/jetified-emoji2-views-helper-1.2.0/res
+com.example.loginapp-jetified-emoji2-1.2.0-1 /Users/apple/.gradle/caches/8.9/transforms/1979faaf814b8588a82c5bbc516685f2/transformed/jetified-emoji2-1.2.0/res
+com.example.loginapp-jetified-zxing-android-embedded-4.3.0-2 /Users/apple/.gradle/caches/8.9/transforms/1d95edbfbfeffc2494f1151c8768ffb0/transformed/jetified-zxing-android-embedded-4.3.0/res
+com.example.loginapp-jetified-core-ktx-1.12.0-3 /Users/apple/.gradle/caches/8.9/transforms/1f9b27aa20786401de2c1dd358050212/transformed/jetified-core-ktx-1.12.0/res
+com.example.loginapp-lifecycle-livedata-core-2.6.1-4 /Users/apple/.gradle/caches/8.9/transforms/1fccfb9ec1b326197e6665bfc7400793/transformed/lifecycle-livedata-core-2.6.1/res
+com.example.loginapp-jetified-profileinstaller-1.3.0-5 /Users/apple/.gradle/caches/8.9/transforms/24b6fc875cd7d10df7bce327ec7c162f/transformed/jetified-profileinstaller-1.3.0/res
+com.example.loginapp-cardview-1.0.0-6 /Users/apple/.gradle/caches/8.9/transforms/3587fcaf8a18255947897ac7b23b8acb/transformed/cardview-1.0.0/res
+com.example.loginapp-material-1.11.0-7 /Users/apple/.gradle/caches/8.9/transforms/38c807b624c3e2bcd0b2d4a0034cbda8/transformed/material-1.11.0/res
+com.example.loginapp-jetified-activity-1.8.0-8 /Users/apple/.gradle/caches/8.9/transforms/39a8513a1e2e939ef25487c300215e2f/transformed/jetified-activity-1.8.0/res
+com.example.loginapp-lifecycle-viewmodel-2.6.1-9 /Users/apple/.gradle/caches/8.9/transforms/3d0cc2ed55ac53e935d3158764a651f9/transformed/lifecycle-viewmodel-2.6.1/res
+com.example.loginapp-jetified-savedstate-1.2.1-10 /Users/apple/.gradle/caches/8.9/transforms/3d41ef3f1b9e3329edb650795f6f5872/transformed/jetified-savedstate-1.2.1/res
+com.example.loginapp-appcompat-1.6.1-11 /Users/apple/.gradle/caches/8.9/transforms/45e39dd23ee70a7123c8f00a33fb721a/transformed/appcompat-1.6.1/res
+com.example.loginapp-transition-1.2.0-12 /Users/apple/.gradle/caches/8.9/transforms/5f79401ac4dfcf71ea29f61e84aa7144/transformed/transition-1.2.0/res
+com.example.loginapp-coordinatorlayout-1.1.0-13 /Users/apple/.gradle/caches/8.9/transforms/6be325e758bfa48e1334bb4075530297/transformed/coordinatorlayout-1.1.0/res
+com.example.loginapp-lifecycle-runtime-2.6.1-14 /Users/apple/.gradle/caches/8.9/transforms/70855ffd253148a91d7855b4f83a5f37/transformed/lifecycle-runtime-2.6.1/res
+com.example.loginapp-core-runtime-2.2.0-15 /Users/apple/.gradle/caches/8.9/transforms/729fecc098fc84824af8292688acd9e8/transformed/core-runtime-2.2.0/res
+com.example.loginapp-drawerlayout-1.1.1-16 /Users/apple/.gradle/caches/8.9/transforms/8c132a8df6a0ef72d40cf0b974aac68e/transformed/drawerlayout-1.1.1/res
+com.example.loginapp-fragment-1.3.6-17 /Users/apple/.gradle/caches/8.9/transforms/9c25a0a4a95264418ea55f7057b155d8/transformed/fragment-1.3.6/res
+com.example.loginapp-jetified-customview-poolingcontainer-1.0.0-18 /Users/apple/.gradle/caches/8.9/transforms/cb5fbb271a87f86e92998ef74c13f485/transformed/jetified-customview-poolingcontainer-1.0.0/res
+com.example.loginapp-constraintlayout-2.1.4-19 /Users/apple/.gradle/caches/8.9/transforms/d1083cc88c57776a73a8a3eaa27239bd/transformed/constraintlayout-2.1.4/res
+com.example.loginapp-jetified-lifecycle-viewmodel-savedstate-2.6.1-20 /Users/apple/.gradle/caches/8.9/transforms/d1192cba8720fa014fa48b281dee06ba/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res
+com.example.loginapp-jetified-startup-runtime-1.1.1-21 /Users/apple/.gradle/caches/8.9/transforms/d9ab596692928ea31041cfbc71eb98e2/transformed/jetified-startup-runtime-1.1.1/res
+com.example.loginapp-jetified-lifecycle-process-2.6.1-22 /Users/apple/.gradle/caches/8.9/transforms/d9f575ab6db67b316ca281cffa447290/transformed/jetified-lifecycle-process-2.6.1/res
+com.example.loginapp-jetified-viewpager2-1.1.0-beta02-23 /Users/apple/.gradle/caches/8.9/transforms/ddbc34e561aa72439814dffa8e23e018/transformed/jetified-viewpager2-1.1.0-beta02/res
+com.example.loginapp-jetified-appcompat-resources-1.6.1-24 /Users/apple/.gradle/caches/8.9/transforms/e5629995d10d87b419e707a8ade61cef/transformed/jetified-appcompat-resources-1.6.1/res
+com.example.loginapp-core-1.12.0-25 /Users/apple/.gradle/caches/8.9/transforms/e76c99ade27df1c9be79f96883a05c2a/transformed/core-1.12.0/res
+com.example.loginapp-lifecycle-livedata-2.6.1-26 /Users/apple/.gradle/caches/8.9/transforms/ed8581ed581af6804511c0cce938c27a/transformed/lifecycle-livedata-2.6.1/res
+com.example.loginapp-recyclerview-1.3.2-27 /Users/apple/.gradle/caches/8.9/transforms/f1df4feb047df645922ac6a484815a6f/transformed/recyclerview-1.3.2/res
+com.example.loginapp-jetified-annotation-experimental-1.3.0-28 /Users/apple/.gradle/caches/8.9/transforms/fe120a9ad53c2c56027db32111a5799e/transformed/jetified-annotation-experimental-1.3.0/res
+com.example.loginapp-pngs-29 /Users/apple/Desktop/Tag onboarding/app/build/generated/res/pngs/release
+com.example.loginapp-resValues-30 /Users/apple/Desktop/Tag onboarding/app/build/generated/res/resValues/release
+com.example.loginapp-packageReleaseResources-31 /Users/apple/Desktop/Tag onboarding/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.example.loginapp-packageReleaseResources-32 /Users/apple/Desktop/Tag onboarding/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.example.loginapp-merged_res-33 /Users/apple/Desktop/Tag onboarding/app/build/intermediates/merged_res/release
+com.example.loginapp-main-34 /Users/apple/Desktop/Tag onboarding/app/src/main/res
+com.example.loginapp-release-35 /Users/apple/Desktop/Tag onboarding/app/src/release/res
