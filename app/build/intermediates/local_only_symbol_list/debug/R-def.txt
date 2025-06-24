@@ -23,6 +23,8 @@ id btnFromDate
 id btnSearch
 id btnToDate
 id cameraDropdown
+id commandsFab
+id connectButton
 id createdAtText
 id currentRfPowerLabel
 id currentRfPowerText
@@ -38,6 +40,7 @@ id deviceRecyclerView
 id deviceStatusText
 id deviceText
 id deviceTypeText
+id disconnectButton
 id editIcon
 id errorText
 id fastagIdInput
@@ -49,6 +52,8 @@ id footerText
 id fromDateInput
 id getButton
 id iconCircle
+id inputEditText
+id ipEditText
 id laneNameText
 id laneRecyclerView
 id laneText
@@ -67,6 +72,9 @@ id nameLayout
 id nameText
 id nextButton
 id openBarrierButton
+id outputScrollView
+id outputTextView
+id passwordEditText
 id passwordInput
 id passwordLayout
 id photoView
@@ -83,6 +91,7 @@ id responseText
 id rfPowerSpinner
 id scanQrButton
 id searchButton
+id sendButton
 id setButton
 id shareButton
 id spinnerStatus
@@ -101,6 +110,7 @@ id totalUsersText
 id tvFromDate
 id tvToDate
 id userNameText
+id usernameEditText
 id usernameInput
 id usernameLayout
 id vehicleNumberInput
@@ -117,6 +127,7 @@ layout activity_lane_info
 layout activity_main
 layout activity_menu
 layout activity_reader_settings
+layout activity_ssh_terminal
 layout activity_users
 layout item_access_log
 layout item_anpr_result

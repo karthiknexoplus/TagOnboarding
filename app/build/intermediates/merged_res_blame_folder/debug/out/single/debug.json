@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.loginapp-merged_res-33:/layout_activity_ssh_terminal.xml.flat",
+        "source": "com.example.loginapp-main-35:/layout/activity_ssh_terminal.xml"
+    },
+    {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_lane_info.xml.flat",
         "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_lane_info.xml"
     },
@@ -22,10 +26,6 @@
     {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_logo_nexoplus.png.flat",
         "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/drawable/ic_logo_nexoplus.png"
-    },
-    {
-        "merged": "com.example.loginapp-merged_res-33:/layout_activity_reader_settings.xml.flat",
-        "source": "com.example.loginapp-main-35:/layout/activity_reader_settings.xml"
     },
     {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_lane.xml.flat",
@@ -106,6 +106,10 @@
     {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_item_device.xml.flat",
         "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_device.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/layout_activity_ssh_terminal.xml.flat",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_ssh_terminal.xml"
     },
     {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-merged_res-33:/drawable_ic_logs.xml.flat",

@@ -29,7 +29,8 @@ class MenuActivity : AppCompatActivity() {
             MenuItem(R.drawable.ic_anpr_data, "ANPR Data", ANPRDataActivity::class.java),
             MenuItem(R.drawable.ic_anpr_users, "ANPR Users", AnprUsersActivity::class.java),
             MenuItem(R.drawable.ic_logs, "Access Logs", AccessLogsActivity::class.java),
-            MenuItem(R.drawable.ic_reader, "Reader Settings", ReaderSettingsActivity::class.java)
+            MenuItem(R.drawable.ic_reader, "Reader Settings", ReaderSettingsActivity::class.java),
+            MenuItem(R.drawable.ic_reader, "SSH Terminal", SshTerminalActivity::class.java)
         )
         val adapter = MenuAdapter(menuItems) { item ->
             startActivity(Intent(this, item.targetActivity))

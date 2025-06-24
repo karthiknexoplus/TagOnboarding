@@ -33,6 +33,7 @@
         <activity android:name=".AnprUsersActivity" />
         <activity android:name=".AccessLogsActivity" />
         <activity android:name=".ReaderSettingsActivity" />
+        <activity android:name=".SshTerminalActivity" />
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.loginapp.provider"

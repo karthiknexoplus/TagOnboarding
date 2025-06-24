@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:2:1-47:12
+ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.databinding:viewbinding:8.1.0] /Users/apple/.gradle/caches/8.9/transforms/7375d7f12a1e4df4a1f04d5a3ed933b4/transformed/jetified-viewbinding-8.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] /Users/apple/.gradle/caches/8.9/transforms/38c807b624c3e2bcd0b2d4a0034cbda8/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/apple/.gradle/caches/8.9/transforms/d1083cc88c57776a73a8a3eaa27239bd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -69,8 +69,8 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/apple/.gradle/
 	android:name
 		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:6:22-62
 application
-ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:8:5-45:19
-INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:8:5-45:19
+ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:8:5-46:19
+INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:8:5-46:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/apple/.gradle/caches/8.9/transforms/38c807b624c3e2bcd0b2d4a0034cbda8/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/apple/.gradle/caches/8.9/transforms/38c807b624c3e2bcd0b2d4a0034cbda8/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/apple/.gradle/caches/8.9/transforms/d1083cc88c57776a73a8a3eaa27239bd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -171,22 +171,26 @@ activity#com.example.loginapp.ReaderSettingsActivity
 ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:35:9-60
 	android:name
 		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:35:19-57
+activity#com.example.loginapp.SshTerminalActivity
+ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:36:9-57
+	android:name
+		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:36:19-54
 provider#androidx.core.content.FileProvider
-ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:36:9-44:20
+ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:37:9-45:20
 	android:grantUriPermissions
-		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:40:13-47
+		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:41:13-47
 	android:authorities
-		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:38:13-64
+		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:39:13-64
 	android:exported
-		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:39:13-37
+		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:37:13-62
+		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:38:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:41:13-43:54
+ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:42:13-44:54
 	android:resource
-		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:43:17-51
+		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:44:17-51
 	android:name
-		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:42:17-67
+		ADDED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml:43:17-67
 uses-sdk
 INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/apple/Desktop/Tag onboarding/app/src/main/AndroidManifest.xml

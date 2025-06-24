@@ -4,10 +4,6 @@
         "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_anpr_result.xml"
     },
     {
-        "merged": "com.example.loginapp-mergeDebugResources-32:/layout/activity_reader_settings.xml",
-        "source": "com.example.loginapp-main-35:/layout/activity_reader_settings.xml"
-    },
-    {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-mergeDebugResources-32:/layout/item_menu.xml",
         "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_menu.xml"
     },
@@ -26,6 +22,10 @@
     {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-mergeDebugResources-32:/layout/item_lane.xml",
         "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/item_lane.xml"
+    },
+    {
+        "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-mergeDebugResources-32:/layout/activity_ssh_terminal.xml",
+        "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_ssh_terminal.xml"
     },
     {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-mergeDebugResources-32:/layout/activity_menu.xml",
@@ -58,6 +58,10 @@
     {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-mergeDebugResources-32:/layout/activity_reader_settings.xml",
         "source": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-main-35:/layout/activity_reader_settings.xml"
+    },
+    {
+        "merged": "com.example.loginapp-mergeDebugResources-32:/layout/activity_ssh_terminal.xml",
+        "source": "com.example.loginapp-main-35:/layout/activity_ssh_terminal.xml"
     },
     {
         "merged": "/Users/apple/.gradle/daemon/8.9/com.example.loginapp-mergeDebugResources-32:/layout/activity_main.xml",

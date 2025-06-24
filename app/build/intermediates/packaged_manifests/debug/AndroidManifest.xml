@@ -71,6 +71,7 @@
         <activity android:name="com.example.loginapp.AnprUsersActivity" />
         <activity android:name="com.example.loginapp.AccessLogsActivity" />
         <activity android:name="com.example.loginapp.ReaderSettingsActivity" />
+        <activity android:name="com.example.loginapp.SshTerminalActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
