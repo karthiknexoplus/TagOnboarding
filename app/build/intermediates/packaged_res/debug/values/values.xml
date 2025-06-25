@@ -9,7 +9,7 @@
     <color name="teal_700">#018786</color>
     <color name="white">#FFFFFF</color>
     <string name="anpr_data">ANPR Data</string>
-    <string name="app_name">Nexoplus</string>
+    <string name="app_name">Nexoplus Tag Manager</string>
     <string name="from_date">From Date</string>
     <string name="invalid_credentials">Invalid credentials</string>
     <string name="lane_information">Lane Information</string>
