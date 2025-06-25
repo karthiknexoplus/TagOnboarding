@@ -76,47 +76,47 @@ class AccessLogsActivity : AppCompatActivity() {
 
         fun fetchPage(page: Int) {
             val url = "http://136.232.224.78:5000/viewonmobile_access_logs?start_date=$from&end_date=$to&status=$status&page=$page&per_page=$perPage"
-            val client = OkHttpClient()
-            val request = Request.Builder().url(url).build()
-            client.newCall(request).enqueue(object : Callback {
-                override fun onFailure(call: Call, e: IOException) {
-                    runOnUiThread {
-                        binding.progressBar.visibility = View.GONE
-                        binding.errorText.text = "Failed: ${e.message}"
-                        binding.errorText.visibility = View.VISIBLE
+        val client = OkHttpClient()
+        val request = Request.Builder().url(url).build()
+        client.newCall(request).enqueue(object : Callback {
+            override fun onFailure(call: Call, e: IOException) {
+                runOnUiThread {
+                    binding.progressBar.visibility = View.GONE
+                    binding.errorText.text = "Failed: ${e.message}"
+                    binding.errorText.visibility = View.VISIBLE
                         binding.totalLogsText.text = "Total logs: 0"
-                    }
                 }
-                override fun onResponse(call: Call, response: Response) {
-                    val body = response.body?.string()
-                    runOnUiThread {
-                        if (response.isSuccessful && body != null) {
-                            val json = JSONObject(body)
-                            if (json.optString("status") == "success") {
-                                val arr = json.optJSONArray("logs")
+            }
+            override fun onResponse(call: Call, response: Response) {
+                val body = response.body?.string()
+                runOnUiThread {
+                    if (response.isSuccessful && body != null) {
+                        val json = JSONObject(body)
+                        if (json.optString("status") == "success") {
+                            val arr = json.optJSONArray("logs")
                                 totalCount = json.optInt("total_count", 0)
-                                if (arr != null) {
-                                    for (i in 0 until arr.length()) {
-                                        val obj = arr.getJSONObject(i)
-                                        val user = obj.getJSONObject("user")
-                                        logs.add(AccessLog(
-                                            obj.optString("access_time"),
-                                            user.optString("name"),
-                                            user.optString("vehicle_number"),
-                                            obj.optString("tag_id"),
-                                            obj.optString("lane"),
-                                            obj.optString("device"),
-                                            obj.optString("status")
-                                        ))
-                                    }
+                            if (arr != null) {
+                                for (i in 0 until arr.length()) {
+                                    val obj = arr.getJSONObject(i)
+                                    val user = obj.getJSONObject("user")
+                                    logs.add(AccessLog(
+                                        obj.optString("access_time"),
+                                        user.optString("name"),
+                                        user.optString("vehicle_number"),
+                                        obj.optString("tag_id"),
+                                        obj.optString("lane"),
+                                        obj.optString("device"),
+                                        obj.optString("status")
+                                    ))
+                                }
                                     // If we haven't fetched all logs, fetch next page
                                     if (logs.size < totalCount && arr.length() > 0) {
                                         fetchPage(page + 1)
                                     } else {
                                         binding.progressBar.visibility = View.GONE
-                                        filterLogs(binding.filterEditText.text.toString())
-                                        binding.errorText.visibility = if (logs.isEmpty()) View.VISIBLE else View.GONE
-                                        binding.errorText.text = if (logs.isEmpty()) "No logs found" else ""
+                                filterLogs(binding.filterEditText.text.toString())
+                                binding.errorText.visibility = if (logs.isEmpty()) View.VISIBLE else View.GONE
+                                binding.errorText.text = if (logs.isEmpty()) "No logs found" else ""
                                         adapter.notifyDataSetChanged()
                                         binding.totalLogsText.text = "Total logs: $totalCount"
                                     }
@@ -137,10 +137,10 @@ class AccessLogsActivity : AppCompatActivity() {
                             binding.errorText.text = "No logs found"
                             binding.errorText.visibility = View.VISIBLE
                             binding.totalLogsText.text = "Total logs: 0"
-                        }
                     }
                 }
-            })
+            }
+        })
         }
 
         fetchPage(1)
