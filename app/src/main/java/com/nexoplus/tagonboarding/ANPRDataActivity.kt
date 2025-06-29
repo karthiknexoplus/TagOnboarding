@@ -15,8 +15,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.loginapp.databinding.ActivityAnprDataBinding
-import com.example.loginapp.databinding.ItemAnprResultBinding
+import com.nexoplus.tagonboarding.databinding.ActivityAnprDataBinding
+import com.nexoplus.tagonboarding.databinding.ItemAnprResultBinding
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray

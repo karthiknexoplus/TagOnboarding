@@ -6,7 +6,6 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.github.chrisbanes.photoview.PhotoView
 import android.graphics.BitmapFactory
-import com.example.loginapp.R
 
 class ImagePreviewActivity : AppCompatActivity() {
     private lateinit var photoView: PhotoView

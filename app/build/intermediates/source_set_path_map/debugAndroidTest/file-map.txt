@@ -1,0 +1,4 @@
+com.nexoplus.tagonboarding.test.app-androidTest-0 /Users/apple/Desktop/TagOnboarding/app/build/generated/res/resValues/androidTest/debug
+com.nexoplus.tagonboarding.test.app-mergeDebugAndroidTestResources-1 /Users/apple/Desktop/TagOnboarding/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.nexoplus.tagonboarding.test.app-mergeDebugAndroidTestResources-2 /Users/apple/Desktop/TagOnboarding/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.nexoplus.tagonboarding.test.app-merged_res-3 /Users/apple/Desktop/TagOnboarding/app/build/intermediates/merged_res/debugAndroidTest

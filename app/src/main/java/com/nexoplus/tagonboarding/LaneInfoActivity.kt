@@ -8,9 +8,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.example.loginapp.databinding.ActivityLaneInfoBinding
-import com.example.loginapp.databinding.ItemLaneBinding
-import com.example.loginapp.databinding.ItemDeviceBinding
+import com.nexoplus.tagonboarding.databinding.ActivityLaneInfoBinding
+import com.nexoplus.tagonboarding.databinding.ItemLaneBinding
+import com.nexoplus.tagonboarding.databinding.ItemDeviceBinding
 import okhttp3.*
 import org.json.JSONObject
 import java.io.IOException

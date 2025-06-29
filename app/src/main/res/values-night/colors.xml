@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_500">#BB86FC</color>
+    <!-- Dark mode color overrides - Based on Logo #00559F -->
+    <color name="primary">#0077CC</color>
+    <color name="primary_dark">#00559F</color>
+    <color name="secondary">#33AAFF</color>
+    <color name="secondary_dark">#0088CC</color>
     <color name="white">#121212</color>
+    <color name="black">#FFFFFF</color>
+    <color name="gray_light">#424242</color>
+    <color name="gray_dark">#F5F5F5</color>
 </resources> 

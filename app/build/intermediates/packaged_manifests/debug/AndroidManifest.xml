@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.loginapp"
+    package="com.nexoplus.tagonboarding"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -12,10 +12,10 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <permission
-        android:name="com.example.loginapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.nexoplus.tagonboarding.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.loginapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-permission android:name="com.nexoplus.tagonboarding.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
@@ -48,9 +48,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.LoginApp" >
-        <activity android:name="com.example.loginapp.HomeActivity" />
         <activity
-            android:name="com.example.loginapp.MainActivity"
+            android:name="com.nexoplus.tagonboarding.SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,24 +57,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.nexoplus.tagonboarding.MainActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.HomeActivity" />
         <activity
-            android:name="com.example.loginapp.PortraitCaptureActivity"
+            android:name="com.nexoplus.tagonboarding.PortraitCaptureActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="com.example.loginapp.MenuActivity" />
-        <activity android:name="com.example.loginapp.UsersActivity" />
-        <activity android:name="com.example.loginapp.BarrierControlActivity" />
-        <activity android:name="com.example.loginapp.LaneInfoActivity" />
-        <activity android:name="com.example.loginapp.ANPRDataActivity" />
-        <activity android:name="com.example.loginapp.ImagePreviewActivity" />
-        <activity android:name="com.example.loginapp.AnprUsersActivity" />
-        <activity android:name="com.example.loginapp.AccessLogsActivity" />
-        <activity android:name="com.example.loginapp.ReaderSettingsActivity" />
-        <activity android:name="com.example.loginapp.SshTerminalActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.MenuActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.UsersActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.BarrierControlActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.LaneInfoActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.ANPRDataActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.ImagePreviewActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.AnprUsersActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.AccessLogsActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.ReaderSettingsActivity" />
+        <activity android:name="com.nexoplus.tagonboarding.SshTerminalActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.loginapp.provider"
+            android:authorities="com.nexoplus.tagonboarding.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -84,7 +85,7 @@
         </provider>
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.loginapp.androidx-startup"
+            android:authorities="com.nexoplus.tagonboarding.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

@@ -1,48 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="12dp"
-    app:cardCornerRadius="24dp"
-    app:cardElevation="2dp"
-    app:strokeColor="@color/purple_500"
-    app:strokeWidth="1dp">
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <FrameLayout
+        android:layout_width="56dp"
+        android:layout_height="56dp">
+
+        <View
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_menu_icon_circle" />
+
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:tint="@android:color/white"
+            android:contentDescription="Menu Icon" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/menuLabel"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:text="Menu"
+        android:textSize="14sp"
+        android:textColor="@color/primary"
+        android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:padding="20dp">
-
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <View
-                android:id="@+id/iconCircle"
-                android:layout_width="56dp"
-                android:layout_height="56dp"
-                android:background="@drawable/bg_menu_icon_circle"
-                android:layout_gravity="center" />
-            <ImageView
-                android:id="@+id/menuIcon"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:tint="@android:color/white"
-                android:layout_gravity="center"
-                android:contentDescription="Menu Icon" />
-        </FrameLayout>
-
-        <TextView
-            android:id="@+id/menuLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Menu"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:textColor="@color/purple_500"
-            android:layout_marginTop="12dp" />
-    </LinearLayout>
-
-</com.google.android.material.card.MaterialCardView> 
+        android:layout_marginTop="8dp" />
+</LinearLayout> 

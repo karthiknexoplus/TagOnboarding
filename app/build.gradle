@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.loginapp'
+    namespace 'com.nexoplus.tagonboarding'
     compileSdk 34
 
     defaultConfig {
@@ -43,4 +43,5 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
     implementation 'com.jcraft:jsch:0.1.55'
+    implementation "com.airbnb.android:lottie:6.1.0"
 } 

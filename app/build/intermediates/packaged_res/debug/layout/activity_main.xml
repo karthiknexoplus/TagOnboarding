@@ -7,6 +7,15 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_bg"
+        android:alpha="0.18"
+        android:contentDescription="Background" />
+
     <!-- Logo at the top center -->
     <ImageView
         android:id="@+id/logoImage"

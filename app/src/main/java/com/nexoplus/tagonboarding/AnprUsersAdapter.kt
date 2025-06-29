@@ -3,7 +3,7 @@ package com.nexoplus.tagonboarding
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.loginapp.databinding.ItemAnprUserBinding
+import com.nexoplus.tagonboarding.databinding.ItemAnprUserBinding
 
 class AnprUsersAdapter(private val users: List<AnprUser>) : RecyclerView.Adapter<AnprUsersAdapter.AnprUserViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AnprUserViewHolder {

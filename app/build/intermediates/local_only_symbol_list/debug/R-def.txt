@@ -1,11 +1,26 @@
 R_DEF: Internal format may change without notice
 local
 array access_log_status
+color accent
 color black
+color error
+color gray
+color gray_dark
+color gray_light
+color info
+color primary
+color primary_dark
+color primary_light
 color purple_500
+color secondary
+color secondary_dark
+color secondary_light
+color success
 color teal_700
+color warning
 color white
 drawable bg_menu_icon_circle
+drawable bg_parking_lot
 drawable ic_anpr_data
 drawable ic_anpr_users
 drawable ic_barrier
@@ -15,10 +30,13 @@ drawable ic_logs
 drawable ic_reader
 drawable ic_tag
 drawable ic_users
+drawable login_bg
+drawable menu_bg
 id accessTimeText
 id activeStatusText
 id anprImage
 id anprRecyclerView
+id bgImage
 id btnFromDate
 id btnSearch
 id btnToDate
@@ -51,7 +69,6 @@ id filterVehicleEditText
 id footerText
 id fromDateInput
 id getButton
-id iconCircle
 id inputEditText
 id ipEditText
 id laneNameText
@@ -64,6 +81,7 @@ id logoImageHome
 id logoImageMenu
 id logoImageUsers
 id logoutButton
+id lottieView
 id menuIcon
 id menuLabel
 id menuRecyclerView
@@ -127,6 +145,7 @@ layout activity_lane_info
 layout activity_main
 layout activity_menu
 layout activity_reader_settings
+layout activity_splash
 layout activity_ssh_terminal
 layout activity_users
 layout item_access_log
@@ -139,6 +158,7 @@ layout item_user
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+raw lottie_loading
 string anpr_data
 string app_name
 string from_date

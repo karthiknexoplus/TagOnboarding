@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginapp-mergeDebugResources-31:/values-sw/values-sw.xml",
+            "outputFile": "com.nexoplus.tagonboarding.app-mergeDebugResources-32:/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.9/transforms/38c807b624c3e2bcd0b2d4a0034cbda8/transformed/material-1.11.0/res/values-sw/values-sw.xml",

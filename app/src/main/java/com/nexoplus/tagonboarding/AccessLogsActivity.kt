@@ -7,7 +7,7 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.loginapp.databinding.ActivityAccessLogsBinding
+import com.nexoplus.tagonboarding.databinding.ActivityAccessLogsBinding
 import okhttp3.*
 import org.json.JSONObject
 import java.io.IOException

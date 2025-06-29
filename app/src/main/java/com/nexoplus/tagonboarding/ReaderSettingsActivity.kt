@@ -5,7 +5,7 @@ import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.loginapp.databinding.ActivityReaderSettingsBinding
+import com.nexoplus.tagonboarding.databinding.ActivityReaderSettingsBinding
 import okhttp3.*
 import org.json.JSONObject
 import java.io.IOException

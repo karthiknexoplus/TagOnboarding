@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_500">#6200EE</color>
+    <!-- Primary Brand Colors - Based on Logo #00559F -->
+    <color name="primary">#00559F</color>
+    <color name="primary_dark">#003D6B</color>
+    <color name="primary_light">#0077CC</color>
+    <color name="accent">#00A3E0</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#0088CC</color>
+    <color name="secondary_dark">#006699</color>
+    <color name="secondary_light">#33AAFF</color>
+    
+    <!-- Neutral Colors -->
     <color name="white">#FFFFFF</color>
-    <color name="teal_700">#018786</color>
     <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_dark">#424242</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+    
+    <!-- Legacy colors for compatibility -->
+    <color name="purple_500">@color/primary</color>
+    <color name="teal_700">@color/secondary_dark</color>
 </resources> 

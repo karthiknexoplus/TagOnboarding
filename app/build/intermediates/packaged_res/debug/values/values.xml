@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="http://schemas.android.com/tools">
+<resources>
     <string-array name="access_log_status">
         <item>Granted</item>
         <item>Denied</item>
     </string-array>
+    <color name="accent">#00A3E0</color>
     <color name="black">#000000</color>
-    <color name="purple_500">#6200EE</color>
-    <color name="teal_700">#018786</color>
+    <color name="error">#F44336</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_dark">#424242</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="info">#2196F3</color>
+    <color name="primary">#00559F</color>
+    <color name="primary_dark">#003D6B</color>
+    <color name="primary_light">#0077CC</color>
+    <color name="purple_500">@color/primary</color>
+    <color name="secondary">#0088CC</color>
+    <color name="secondary_dark">#006699</color>
+    <color name="secondary_light">#33AAFF</color>
+    <color name="success">#4CAF50</color>
+    <color name="teal_700">@color/secondary_dark</color>
+    <color name="warning">#FF9800</color>
     <color name="white">#FFFFFF</color>
     <string name="anpr_data">ANPR Data</string>
     <string name="app_name">Nexoplus Tag Manager</string>
@@ -30,11 +44,15 @@
     <string name="welcome">Welcome!</string>
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
     <style name="Theme.LoginApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/purple_500</item>
-        <item name="android:statusBarColor" ns1:targetApi="l">@color/purple_500</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/white</item>
     </style>
     <style name="Widget.CurvedInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxCornerRadiusTopStart">32dp</item>

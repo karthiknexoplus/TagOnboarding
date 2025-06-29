@@ -3,7 +3,7 @@ package com.nexoplus.tagonboarding
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.loginapp.databinding.ItemAccessLogBinding
+import com.nexoplus.tagonboarding.databinding.ItemAccessLogBinding
 
 class AccessLogsAdapter(private val logs: List<AccessLog>) : RecyclerView.Adapter<AccessLogsAdapter.AccessLogViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AccessLogViewHolder {

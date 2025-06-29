@@ -5,7 +5,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.loginapp.databinding.ActivityAnprUsersBinding
+import com.nexoplus.tagonboarding.databinding.ActivityAnprUsersBinding
 import okhttp3.*
 import org.json.JSONObject
 import org.json.JSONArray

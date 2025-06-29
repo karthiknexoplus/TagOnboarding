@@ -3,7 +3,7 @@ package com.nexoplus.tagonboarding
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.loginapp.databinding.ActivitySshTerminalBinding
+import com.nexoplus.tagonboarding.databinding.ActivitySshTerminalBinding
 import com.jcraft.jsch.ChannelShell
 import com.jcraft.jsch.JSch
 import com.jcraft.jsch.Session

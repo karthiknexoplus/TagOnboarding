@@ -1,9 +1,10 @@
 package com.nexoplus.tagonboarding
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.loginapp.databinding.ActivityHomeBinding
+import com.nexoplus.tagonboarding.databinding.ActivityHomeBinding
 import com.journeyapps.barcodescanner.ScanContract
 import com.journeyapps.barcodescanner.ScanOptions
 import okhttp3.*

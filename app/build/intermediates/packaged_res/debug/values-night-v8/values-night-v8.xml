@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="http://schemas.android.com/tools">
-    <color name="purple_500">#BB86FC</color>
+<resources>
+    <color name="black">#FFFFFF</color>
+    <color name="gray_dark">#F5F5F5</color>
+    <color name="gray_light">#424242</color>
+    <color name="primary">#0077CC</color>
+    <color name="primary_dark">#00559F</color>
+    <color name="secondary">#33AAFF</color>
+    <color name="secondary_dark">#0088CC</color>
     <color name="white">#121212</color>
     <style name="Theme.LoginApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_500</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/purple_500</item>
-        <item name="android:statusBarColor" ns1:targetApi="l">@color/purple_500</item>
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/secondary_light</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:windowBackground">@color/gray_dark</item>
     </style>
 </resources>

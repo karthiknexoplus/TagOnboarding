@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginapp-mergeDebugResources-31:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.nexoplus.tagonboarding.app-mergeDebugResources-32:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/8.9/transforms/45e39dd23ee70a7123c8f00a33fb721a/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",

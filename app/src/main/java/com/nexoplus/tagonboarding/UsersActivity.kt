@@ -1,19 +1,20 @@
 package com.nexoplus.tagonboarding
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.loginapp.databinding.ActivityUsersBinding
+import com.nexoplus.tagonboarding.databinding.ActivityUsersBinding
+import com.nexoplus.tagonboarding.databinding.ItemUserBinding
 import okhttp3.*
 import org.json.JSONArray
 import java.io.IOException
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView as RV
-import com.example.loginapp.databinding.ItemUserBinding
 import android.app.AlertDialog
 import android.view.View
 import android.widget.EditText

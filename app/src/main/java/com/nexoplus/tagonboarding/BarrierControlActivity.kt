@@ -3,7 +3,7 @@ package com.nexoplus.tagonboarding
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.loginapp.databinding.ActivityBarrierControlBinding
+import com.nexoplus.tagonboarding.databinding.ActivityBarrierControlBinding
 import okhttp3.*
 import okhttp3.MediaType.Companion.toMediaType
 import org.json.JSONObject
